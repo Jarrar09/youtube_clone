@@ -1,0 +1,129 @@
+.header{
+   height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 227, 227); 
+
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    }
+    .hamburger-menu{
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 24px;
+        cursor: pointer;
+    }    
+    .youtube-logo{
+        height: 20px;
+    }
+
+
+    .second-section{
+        align-items: center;
+
+        display: flex;
+       
+        flex: 1;
+        margin-left: 70px;
+        margin-right:40px;
+        
+        max-width: 500px;
+    }
+
+    .search-bar{
+        flex: 1;
+        height: 36px;
+        width: 0;
+        padding-left: 12px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 2px;
+
+        border-color: rgb(233, 233, 233);
+    }
+    .search-bar::placeholder{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    .search-button{
+        height: 40px;
+        width: 66px;
+        background-color: rgb(233, 233, 233);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(201, 201, 201);
+        cursor: pointer;
+
+       margin-left: -1px;
+       margin-right: 10px;
+    }
+    .search-icon{
+        margin-top: 4px;
+        height: 25px;
+
+    }
+    .voice-search-button
+    {
+        height: 40px;
+        width: 40px;
+        border-style: solid;
+        border-color:rgb(240, 237, 237) ;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .voice-search-icon{
+        height: 24px;
+        margin-top: 4px;
+        color: rgb(241, 241, 241);
+    }
+
+    .third-section{  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 20px;
+      width: 200px;
+      flex-shrink: 0;
+    }
+
+    .upload-icon{
+        cursor: pointer;
+        height: 24px;
+    }
+   .youtube-icon{
+    cursor: pointer;
+    height: 24px;
+   }
+   .notification-icon{
+    height: 24px;
+    cursor: pointer;
+   }
+   .my-channel-icon{
+    cursor: pointer;
+    height: 24px;
+    border-radius: 20px;
+   }
+  
+
+   
+  
+   
+
